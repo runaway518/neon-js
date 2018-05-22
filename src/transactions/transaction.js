@@ -91,7 +91,7 @@ class Transaction {
       return { prevHash: c.txid, prevIndex: c.index }
     })
     txConfig.outputs = [{
-      assetId: ASSET_ID.GAS,
+      assetId: ASSET_ID.PEGAS,
       value: totalClaim,
       scriptHash: acct.scriptHash
     }]

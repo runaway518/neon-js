@@ -27,10 +27,10 @@ export const calculateInputs = (balances, intents, extraCost = 0, strategy = nul
   // Add GAS cost and fees in
   extraCost = new Fixed8(extraCost).add(fees)
   if (extraCost.gt(0)) {
-    if (requiredAssets[ASSET_ID.GAS]) {
-      requiredAssets[ASSET_ID.GAS] = requiredAssets[ASSET_ID.GAS].add(extraCost)
+    if (requiredAssets[ASSET_ID.PEGAS]) {
+      requiredAssets[ASSET_ID.PEGAS] = requiredAssets[ASSET_ID.PEGAS].add(extraCost)
     } else {
-      requiredAssets[ASSET_ID.GAS] = extraCost
+      requiredAssets[ASSET_ID.PEGAS] = extraCost
     }
   }
   const inputsAndChange = Object.keys(requiredAssets).map((assetId) => {

@@ -168,8 +168,8 @@ function parseTxHistory (rawTxs, address) {
     const vin = tx.vin.filter(i => i.address_hash === address)
     const vout = tx.vouts.filter(o => o.address_hash === address)
     const change = {
-      NEO: vin.filter(i => i.asset === ASSET_ID.NEO).reduce((p, c) => p.add(c.value), new Fixed8(0)),
-      GAS: vout.filter(i => i.asset === ASSET_ID.GAS).reduce((p, c) => p.add(c.value), new Fixed8(0))
+      NEO: vin.filter(i => i.asset === ASSET_ID.PECUS).reduce((p, c) => p.add(c.value), new Fixed8(0)),
+      GAS: vout.filter(i => i.asset === ASSET_ID.PEGAS).reduce((p, c) => p.add(c.value), new Fixed8(0))
     }
     return {
       txid: tx.txid,
