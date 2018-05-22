@@ -2,15 +2,15 @@
 export const ADDR_VERSION = '17'
 
 export const ASSETS = {
-  NEO: 'NEO',
-  'c56f33fc6ecfcd0c225c4ab356fee59390af8560be0e930faebe74a6daff7c9b': 'NEO',
-  GAS: 'GAS',
-  '602c79718b16e442de58778e148d0b1084e3b2dffd5de6b7b16cee7969282de7': 'GAS'
+  PECUS: 'PECUS',
+  '91ae3c35ff62fea813c4d351d8862fdca2f3c03de0f176ffe928c71b0e3def98': 'PECUS',
+  PEGAS: 'PEGAS',
+  '174d509b7966c3a208358dee27a0265031ba3d8a2eadf4b7bdb4c6ec5279b3ec': 'PEGAS'
 }
 
 export const ASSET_ID = {
-  NEO: 'c56f33fc6ecfcd0c225c4ab356fee59390af8560be0e930faebe74a6daff7c9b',
-  GAS: '602c79718b16e442de58778e148d0b1084e3b2dffd5de6b7b16cee7969282de7'
+  PECUS: '91ae3c35ff62fea813c4d351d8862fdca2f3c03de0f176ffe928c71b0e3def98',
+  PEGAS: '174d509b7966c3a208358dee27a0265031ba3d8a2eadf4b7bdb4c6ec5279b3ec'
 }
 
 export const CONTRACTS = {
