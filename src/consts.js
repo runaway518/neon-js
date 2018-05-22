@@ -4,7 +4,7 @@ export const ADDR_VERSION = '17'
 export const ASSETS = {
   PECUS: 'PECUS',
   '91ae3c35ff62fea813c4d351d8862fdca2f3c03de0f176ffe928c71b0e3def98': 'PECUS',
-  PEGAS: 'PEGAS',
+  PEGAS: 'PECUS GAS',
   '174d509b7966c3a208358dee27a0265031ba3d8a2eadf4b7bdb4c6ec5279b3ec': 'PEGAS'
 }
 

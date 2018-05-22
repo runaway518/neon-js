@@ -1,13 +1,13 @@
 export const ADDR_VERSION = '17'
 
 export namespace ASSETS {
-  export const NEO: string
-  export const GAS: string
+  export const PECUS: string
+  export const PEGAS: string
 }
 
 export namespace ASSET_ID {
-  export const NEO: string
-  export const GAS: string
+  export const PECUS: string
+  export const PEGAS: string
 }
 
 export namespace CONTRACTS {
